@@ -61,9 +61,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - 📚 [Documentation](https://github.com/Jansherameer12/luma-css)
-- 🐛 [Issue Tracker](https://github.com/jansherameer/luma-css/issues)
+- 🐛 [Issue Tracker](https://github.com/Jansherameer12/luma-css/issues)
 
 ---
 
-Built with ❤️ by [JanSher Ameer](https://github.com/jansherameer)
+Built with ❤️ by [Jansher Ameer](https://github.com/jansherameer)
 
