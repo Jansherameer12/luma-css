@@ -1,6 +1,6 @@
 {
   "name": "@jansherameer/luma-css",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A modern, lightweight utility-first CSS framework for rapid web development",
   "main": "luma.css",
   "style": "luma.css",
