@@ -1,59 +1,69 @@
-
-````markdown
 # Luma CSS
 
-Luma CSS is a lightweight utility-first CSS framework. It provides simple classes for layout, spacing, typography, buttons, cards, forms, and more — all designed with modern CSS variables and smooth transitions.
+A modern, lightweight utility-first CSS framework designed for rapid web development. Luma CSS provides a comprehensive set of utility classes for layout, spacing, typography, and components while maintaining a minimal footprint.
 
 ## Features
 
-- Base typography and color variables
-- Container for responsive layouts
-- Buttons with hover and focus effects
-- Cards with shadows and gradient backgrounds
-- Flexbox utilities for easy alignment
-- Spacing utilities (margin and padding)
-- Responsive typography
-- Styled input fields and textareas
-- Link styling with smooth color transitions
+- 🎨 **Comprehensive Utilities**: Extensive set of utility classes for layout, spacing, and typography
+- 📱 **Responsive Design**: Built-in responsive utilities for all screen sizes
+- 🚀 **Lightweight**: Minimal file size for optimal performance
+- 🎯 **Easy to Use**: Simple class-based approach with intuitive naming
+- 🎨 **Customizable**: Easy to extend and customize to fit your needs
+- 🧩 **Component Library**: Pre-built components including buttons, cards, and more
 
-## Usage
-
-### CDN
-
-Include the CSS directly in your HTML via CDN:
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jansherameer12/luma-css@v1.0.2/luma.css" />
-````
-
-Then apply classes to your elements, for example:
-
-```html
-<div class="text-center m-1">Hello, Luma CSS!</div>
-<button class="btn">Click Me</button>
-<div class="card p-3">Card content</div>
-```
+## Installation
 
 ### NPM
 
-You can also install via npm:
-
 ```bash
-npm install luma-css
+npm install @jansherameer/luma-css
 ```
 
-Then import it into your project:
+### CDN
+
+Add the following link to your HTML file:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@jansherameer/luma-css/luma.css" />
+```
+
+## Quick Start
+
+1. Import the CSS file in your project:
 
 ```css
-@import 'luma-css/luma.css';
+@import '@jansherameer/luma-css/luma.css';
+```
+
+2. Start using the utility classes in your HTML:
+
+```html
+<div class="container">
+  <div class="text-center m-1 p-2 bg-light">
+    <h1 class="text-primary">Welcome to Luma CSS</h1>
+    <p class="text-secondary">A modern utility-first CSS framework</p>
+  </div>
+</div>
 ```
 
 ## Documentation
 
-See the CSS file for available classes and utilities. The framework uses CSS variables for easy customization.
+For detailed documentation and examples, visit our [GitHub repository](https://github.com/Jansherameer12/luma-css).
+
+## Contributing
+
+We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+- 📚 [Documentation](https://github.com/Jansherameer12/luma-css)
+- 🐛 [Issue Tracker](https://github.com/jansherameer/luma-css/issues)
 
 ---
 
-Built with ❤️ by Jansher Ameer
-
+Built with ❤️ by [Jan Sherameer](https://github.com/jansherameer)
 

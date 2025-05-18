@@ -1,22 +1,36 @@
 {
   "name": "@jansherameer/luma-css",
-  "version": "2.0.0",
-  "description": "Luma CSS – A lightweight, modern CSS framework for responsive, elegant UIs. Features a flexible grid, utility classes, and customizable components. Simple, fast, and easy to use. Perfect for SPAs, prototypes, and production. ",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "A modern, lightweight utility-first CSS framework for rapid web development",
+  "main": "luma.css",
+  "style": "luma.css",
+  "files": [
+    "luma.css",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jansherameer12/luma-css.git"
+    "url": "git+https://github.com/Jansherameer12/luma-css.git"
   },
   "keywords": [
-    "luma-css"
+    "css",
+    "framework",
+    "utility-first",
+    "responsive",
+    "modern",
+    "lightweight"
   ],
-  "author": "Jansher Ameer",
+  "author": "Jan Sherameer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jansherameer12/luma-css/issues"
+    "url": "https://github.com/Jansherameer12/luma-css/issues"
   },
-  "homepage": "https://github.com/jansherameer12/luma-css#readme"
+  "homepage": "https://github.com/Jansherameer12/luma-css#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
