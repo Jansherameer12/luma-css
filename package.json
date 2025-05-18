@@ -1,6 +1,6 @@
 {
   "name": "@jansherameer/luma-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Luma CSS – A lightweight, modern CSS framework for responsive, elegant UIs. Features a flexible grid, utility classes, and customizable components. Simple, fast, and easy to use. Perfect for SPAs, prototypes, and production. ",
   "main": "index.js",
   "scripts": {
