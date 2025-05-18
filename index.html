@@ -74,6 +74,85 @@
         width: 200px;
         justify-content: center;
       }
+
+      /* Container padding for mobile */
+      .container {
+        padding: 0 1rem;
+      }
+
+      /* Feature grid adjustments */
+      .feature-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      /* Card adjustments */
+      .feature-card {
+        padding: 1rem;
+      }
+
+      .feature-card pre {
+        overflow-x: auto;
+        font-size: 0.875rem;
+      }
+
+      /* Navigation adjustments */
+      .guide-nav .container {
+        padding: 0.75rem 1rem;
+      }
+
+      .nav-menu {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: var(--luma-paper);
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .nav-menu.active {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      /* Footer adjustments */
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+      }
+
+      .footer nav {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      /* Typography adjustments */
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+      }
+
+      h3 {
+        font-size: 1.25rem;
+      }
+
+      /* Section spacing */
+      section {
+        padding: 2rem 0;
+      }
     }
   </style>
 </head>
