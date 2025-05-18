@@ -65,5 +65,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Built with ❤️ by [Jan Sherameer](https://github.com/jansherameer)
+Built with ❤️ by [JanSher Ameer](https://github.com/jansherameer)
 
